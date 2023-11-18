@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+/* Printing helper functions */
+void print_array(const int *array, size_t size);
+
 /* Sorting algoritms */
 void bubble_sort(int *array, size_t size);
 
